@@ -583,8 +583,7 @@ def pilih_crack():
 
 		jjt = raw_input("\033[1;92mEnter ID : \033[1;92m")
 
-		print "►▸▹►▸▹►▸▹►►▸▹►▸▹►▸▹►▸▹◃◄◅◃◄◅◃◄◅▸▹◃◄◅◃◄◅◃◄◅"
-
+		
 		try:
 
 			m = requests.get("https://graph.facebook.com/"+jjt+"?access_token="+toket)
